@@ -20,6 +20,34 @@
     background-size: 100%;
     background-position: center;
 }
+.steps {
+    display: flex;
+    margin-left: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.info-steps {
+    margin-bottom: 0.0;
+    color: hsl(231, 11%, 63%)
+}
+.my-info {
+    margin-top: 0.0;
+    color: hsl(0, 0%, 100%);
+}
+
+.number {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid hsl(206, 94%, 87%);
+    border-radius: 50%;
+    padding-top: 20px;
+    background-color: hsl(206, 94%, 87%);
+}
 
 .right-container {
     width: 60%;
