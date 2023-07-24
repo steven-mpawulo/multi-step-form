@@ -1,7 +1,7 @@
 .main-container {
     display: flex;
     width: 80%;
-    height: 80%;
+    height: 500px;
     margin: 0 auto;
     border: 2px, solid, white;
     border-radius: 10px;
@@ -14,7 +14,7 @@
     width: 30%;
     height: 100%;
     background-image: url(../images/bg-sidebar-desktop.svg);
-    object-fit: contain;
+    object-fit: cover;
     background-repeat: no-repeat;
     border: 2px solid white;
     border-radius: 10px;
@@ -43,15 +43,32 @@
 
 .number {
     text-align: center;
-    width: 40px;
-    height: 40px;
-    border: 2px solid hsl(206, 94%, 87%);
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
     border-radius: 50%;
-    padding-top: 20px;
-    background-color: hsl(206, 94%, 87%);
+    padding-top: 14px;
+    background-color: transparent;
+    color: white;
 }
 
 .right-container {
     width: 60%;
     height: 100%;
+}
+
+.my-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 28%;
+    margin-top: 15%;
+}
+
+.next-button {
+    background-color: hsl(213, 96%, 18%);
+    color: white;
+    width: 30%;
+    height: 50px;
+    border: 1px, solid, hsl(213, 96%, 18%);
+    border-radius: 10px;
 }

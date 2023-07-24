@@ -39,6 +39,9 @@ const Wrapper = () => {
         </div>
         <div className="right-container">
             <PersonalInfo/>
+            <div className="my-button">
+                <button className='next-button'>Next Step</button>
+            </div>
         </div>
     </div>
     </main>
