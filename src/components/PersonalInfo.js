@@ -1,16 +1,26 @@
 import React from 'react'
 
 const PersonalInfo = () => {
-  return (
-    <main>
+    return (
         <section>
-            <div className="main-container">
-                <div className="left-container"></div>
-                <div className="right-container"></div>
+            <div className="personal-info-container">
+                <p>Personal info</p>
+                <p>Please provide your name, email address and phone number</p>
+                <div className="name">
+                    <label htmlFor="name">Name</label> <br />
+                    <input type="text" name='name' id='name' />
+                </div>
+                <div className="email">
+                    <label htmlFor="email">Email Address</label> <br />
+                    <input type="email" name="email" id="email" />
+                </div>
+                <div className="phone-number">
+                    <label htmlFor="phone-number">Phone Number</label> <br />
+                    <input type="tel" name="phone-number" id="phone-number" />
+                </div>
             </div>
         </section>
-    </main>
-  )
+    )
 }
 
 export default PersonalInfo

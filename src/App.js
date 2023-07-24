@@ -1,9 +1,9 @@
-import PersonalInfo from "./components/PersonalInfo";
+import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
     <div className="major-container">
-      <PersonalInfo/>
+      <Wrapper/>
     </div>
   );
 }
