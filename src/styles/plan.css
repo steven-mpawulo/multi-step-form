@@ -1,0 +1,62 @@
+.cards-plan-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+
+.card-arcade {
+    width: 50%;
+    border: 2px solid hsl(229, 24%, 87%);
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.card-advanced {
+    width: 50%;
+    border: 2px solid hsl(229, 24%, 87%);
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.card-pro {
+    width: 50%;
+    border: 2px solid hsl(229, 24%, 87%);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.for-switch {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    width: 100%;
+    background-color: hsl(217, 100%, 97%);
+    height: 40px;
+    align-items: center;
+}
+.switch-container {
+    width: 50px;
+    height: 25px;
+}
+input[type='checkbox'] {
+    width: 50px;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.monthly {
+    display: inline;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.yearly {
+    display: inline;
+    margin-right: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
