@@ -1,6 +1,6 @@
 .major-container {
     width: 100%;
-    height: 100%;
-    padding: 10%;
+    height: 100vh;
+    padding: 2%;
     background-color:  hsl(229, 24%, 87%);
 }
