@@ -1,10 +1,11 @@
 import React from 'react'
+import '../styles/personal_info.css'
 
 const PersonalInfo = () => {
     return (
         <section>
             <div className="personal-info-container">
-                <p>Personal info</p>
+                <p className='personal-info-text'> Personal info</p>
                 <p>Please provide your name, email address and phone number</p>
                 <div className="name">
                     <label htmlFor="name">Name</label> <br />
