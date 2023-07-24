@@ -3,3 +3,24 @@
     font-size: 32px;
     color: hsl(213, 96%, 18%);
 }
+
+.personal-info-supplementary {
+    color: hsl(231, 11%, 63%);
+}
+
+label {
+    color: hsl(213, 96%, 18%)
+}
+
+input{
+    width: 70%;
+    height: 30px;
+}
+
+.name {
+    margin-bottom: 15px;
+}
+
+.email {
+    margin-bottom: 15px;
+}
