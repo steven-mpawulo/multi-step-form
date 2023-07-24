@@ -1,6 +1,7 @@
 import React from 'react'
-import PersonalInfo from './PersonalInfo'
+// import PersonalInfo from './PersonalInfo'
 import '../styles/wrapper.css'
+import Plan from './Plan'
 
 const Wrapper = () => {
   return (
@@ -38,7 +39,8 @@ const Wrapper = () => {
             </div>
         </div>
         <div className="right-container">
-            <PersonalInfo/>
+            {/* <PersonalInfo/> */}
+            <Plan/>
             <div className="my-button">
                 <button className='next-button'>Next Step</button>
             </div>
