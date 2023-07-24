@@ -1,7 +1,10 @@
+import PersonalInfo from "./components/PersonalInfo";
 
 function App() {
   return (
-    <div></div>
+    <div className="major-container">
+      <PersonalInfo/>
+    </div>
   );
 }
 
