@@ -1,5 +1,6 @@
 import React from 'react'
 import PersonalInfo from './PersonalInfo'
+import '../styles/wrapper.css'
 
 const Wrapper = () => {
   return (
