@@ -5,7 +5,7 @@ const FinishingUp = () => {
   return (
     <div className="finishing-up-container">
         <p className='finishing-up-text'>Finishing up</p>
-        <p>Double-check everything looks okay before confirming.</p>
+        <p className='finishing-up-supplementary-text'>Double-check everything looks okay before confirming.</p>
         <div className="finishing-up-inner-container">
             <div className="first-container">
                 <div className="first-inner-container">
