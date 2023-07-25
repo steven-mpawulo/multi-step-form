@@ -1,9 +1,35 @@
+.finishing-up-container {
+    height: 80%;
+}
 .finishing-up-text {
     color: hsl(213, 96%, 18%);
     font-size: 32px;
     font-weight: bold;
+    margin-bottom: 0;
 }
 
 .finishing-up-supplementary-text {
     color: hsl(231, 11%, 63%);
+    margin-top: 0;
+}
+
+
+
+.finishing-up-inner-container {
+    border: 1px solid hsl(217, 100%, 97%);
+    border-radius: 8px;
+    background-color: hsl(217, 100%, 97%);
+    padding: 16px;
+}
+
+.first-container{
+    display: flex;
+}
+.second-container{
+    display: flex;
+}
+
+.outter-container {
+    display: flex;
+    margin-bottom: 0.0;
 }

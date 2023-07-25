@@ -41,9 +41,9 @@ const Wrapper = () => {
                     {/* <PersonalInfo/> */}
                     {/* <Plan/> */}
                     {/* <PickAddOns /> */}
-                    <FinishingUp/>
-                    <div className="my-button">
-                        <button className='next-button'>Next Step</button>
+                    <FinishingUp />
+                    <div className="button-container">
+                        <button className='my-button'>Next Step</button>
                     </div>
                 </div>
             </div>

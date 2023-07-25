@@ -24,11 +24,11 @@ const FinishingUp = () => {
                 <p>+&#36;29/mo</p>
 
             </div>
-            <div className="third-container">
+        </div>
+        <div className="outter-container">
                 <p>Total(per year)</p>
                 <p>&#36;/yr</p>
             </div>
-        </div>
     </div>
   )
 }
