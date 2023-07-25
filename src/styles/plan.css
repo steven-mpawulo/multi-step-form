@@ -1,3 +1,6 @@
+.plan-container {
+    height: 80%;
+}
 .cards-plan-container {
     display: flex;
     justify-content: flex-start;

@@ -1,3 +1,6 @@
+.pick-add-ons-container {
+    height: 80%;
+}
 .pick-add-ons-text {
     color: hsl(213, 96%, 18%);
     font-size: 32px;
