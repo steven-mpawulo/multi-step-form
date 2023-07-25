@@ -33,12 +33,16 @@ const PickAddOns = () => {
             </div>
         </div>
         <div className="customizable-profile-container">
+            <div className="first-inner-container">
             <input type="checkbox" />
-            <div className="customizable-profile-inner-container">
+            </div>
+            <div className="second-inner-container">
                 <p>Customizable profile</p>
                 <p>Custom theme on your profile</p>
             </div>
+            <div className="third-inner-container">
             <p>&#36;2/mo</p>
+            </div>
         </div>
     </div>
   )

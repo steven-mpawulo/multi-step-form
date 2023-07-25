@@ -42,3 +42,12 @@
     margin-top: 10px;
 
 }
+
+.customizable-profile-container {
+    border: 2px solid hsl(229, 24%, 87%);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    margin-top: 5px;   
+}
