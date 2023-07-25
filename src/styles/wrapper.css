@@ -1,7 +1,7 @@
 .main-container {
     display: flex;
     width: 80%;
-    height: 500px;
+    height: 550px;
     margin: 0 auto;
     border: 2px, solid, white;
     border-radius: 10px;
@@ -60,8 +60,8 @@
 .my-button {
     display: flex;
     justify-content: flex-end;
-    margin-right: 28%;
-    margin-top: 15%;
+    margin-right: 18;
+    margin-top: 8px;
 }
 
 .next-button {
