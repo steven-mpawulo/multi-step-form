@@ -32,3 +32,13 @@
     display: inline;
 }
 
+
+.larger-storage-container {
+    border: 2px solid hsl(229, 24%, 87%);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+
+}
