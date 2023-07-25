@@ -1,9 +1,10 @@
 import React from 'react'
+import '../styles/finishing_up.css'
 
 const FinishingUp = () => {
   return (
     <div className="finishing-up-container">
-        <p>Finishing up</p>
+        <p className='finishing-up-text'>Finishing up</p>
         <p>Double-check everything looks okay before confirming.</p>
         <div className="finishing-up-inner-container">
             <div className="first-container">
