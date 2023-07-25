@@ -1,0 +1,34 @@
+.pick-add-ons-text {
+    color: hsl(213, 96%, 18%);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.pick-add-ons-supplementary-text{
+    color: hsl(229, 24%, 87%)
+}
+
+.online-service {
+    border: 2px solid hsl(229, 24%, 87%);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+
+}
+
+.first-inner-container {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.second-inner-container {
+    display: inline-block;
+    margin-right: 240px;
+}
+
+.third-inner-container {
+    display: inline;
+}
+
