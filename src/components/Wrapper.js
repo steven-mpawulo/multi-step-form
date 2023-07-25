@@ -1,8 +1,6 @@
 import React from 'react'
-
 import '../styles/wrapper.css'
-
-import PickAddOns from './PickAddOns'
+import FinishingUp from './FinishingUp'
 
 const Wrapper = () => {
     return (
@@ -42,7 +40,8 @@ const Wrapper = () => {
                 <div className="right-container">
                     {/* <PersonalInfo/> */}
                     {/* <Plan/> */}
-                    <PickAddOns />
+                    {/* <PickAddOns /> */}
+                    <FinishingUp/>
                     <div className="my-button">
                         <button className='next-button'>Next Step</button>
                     </div>
